@@ -27,7 +27,7 @@ li:hover{
 }
 
 .banner{
-    background-image: url(fots.jpg);
+    background-image: url(fotos/pexels-george-desipris-753619.jpg);
     background-size: cover;
     background-position: bottom;
     margin-top: -22px;
@@ -88,7 +88,7 @@ h3{
 }
 
 .banner-2{
-    background-image: url(opp.jpg);
+    background-image:url(fotos/pexels-johannes-plenio-1119974.jpg);
     background-size: cover;
     background-position: bottom;
     height: 630px;
