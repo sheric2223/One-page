@@ -1,0 +1,248 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: darkcyan;
+    width: 100%;
+}
+
+.barra-menu{
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+
+.barra-menu li {
+    list-style: none;
+    font-size: 25px;
+    display: inline-block;
+    padding: 10px;
+}
+
+li:hover{
+    background-color:black;
+    border-radius: 5px;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.banner{
+    background-image: url(fots.jpg);
+    background-size: cover;
+    background-position: bottom;
+    margin-top: -22px;
+    height: 630px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+    color: blueviolet;
+    text-shadow: white 5px 5px 5px;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    color: blueviolet;
+    text-shadow: white 5px 5px 5px;
+}
+
+.container{
+    background-color: #4682B4;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 735px;
+}
+
+.container input {
+    margin-left: 100px;
+    color: aqua;
+    background-color: blue;
+}
+
+.container input:hover{
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+}
+
+.container h5{
+    padding-left: 100px;
+    color: cyan;
+}
+
+.container h5:hover{
+    cursor: pointer;
+}
+
+.container-sec{
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    height: 800px;
+    align-items: center;
+}
+
+.banner-2{
+    background-image: url(opp.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 630px;
+    margin-top: -25px;
+}
+
+.apresentaçao{
+    background-color: #00BFFF;
+    height: 500px;
+    display: flex;
+    padding-left: 25px;
+    align-items: center;
+    color: aliceblue;
+}
+
+.container-fotos-seg input{
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+.container-fotos-seg input:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.banner-alfa{
+    background-color: #1eff69;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    align-items: center;
+}
+
+form{
+    background-color: aqua;
+    display: flex;
+}
+
+form h5{
+    color: darkblue;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+form p {
+    padding-left: 20px;
+}
+form input {
+    width: 500px;
+    margin: 10px;
+    padding-top: 15px;
+}
+
+#btn {
+    width: 350px;
+    color: antiquewhite;
+    background-color: #008B8B;
+    padding-bottom: 15px;
+    margin-left: 100px;
+}
+
+#btn:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: aqua;
+    text-shadow: 5px 5px 5px white;
+    background-color: black;
+}
+
+@media (max-width: 450px) {
+    .container{
+        display: flex;
+        flex-direction:column;
+        height: 1100px;
+        padding-top: 20px;
+}
+    .container-sec{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .apresentaçao{
+        display: flex;
+        flex-direction: column;
+        padding-top: 25px;
+        height: 1500px;
+    }
+    .formylario{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-banner{
+        width: 100px;
+        height: 100px;
+    }
+    #form, #form2, #form3{
+        width: 300px;
+    }
+
+    #btn{
+        display: flex;
+        justify-content: center;
+        width: 100px;
+    }
+    .banner-alfa{
+        height: 1000px;    
+        display: flex;  
+}
+    .banner-alfa p{
+        font-size: 25px;
+        display: flex;
+        color: #008B8B;
+        width: 300px;
+        height: 350px;
+    }
+     .img-banner{
+        margin-top: -840px;
+        margin-left: -240px;
+    }
+    .banner-alfa img{
+        width: 250px;
+    }
+}
+
+@media (max-width: 900px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        height: 1300px;
+        padding-bottom: 20px;
+    }
+
+    .container-sec{
+        display: flex;
+        flex-direction: column;
+        height: 1030px;
+    }
+
+    .container-fotos-seg img{
+        width: 350px;
+        padding-left: 9px;
+    }
+
+    .apresentaçao{
+        display: flex;
+        flex-direction: column;
+        padding-top: 25px;
+    }
+}
