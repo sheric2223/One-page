@@ -58,6 +58,10 @@ h3{
     height: 735px;
 }
 
+.container-foto{
+    padding: 120px;
+}
+
 .container input {
     margin-left: 100px;
     color: aqua;
