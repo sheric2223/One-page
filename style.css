@@ -54,10 +54,7 @@ h3{
     display: flex;
     align-items: center;
     height: 735px;
-}
-
-.cotainer-foto{
-    padding: 110px;
+    padding-left: 20px;
 }
 
 .container input {
@@ -81,6 +78,23 @@ h3{
     cursor: pointer;
 }
 
+.cotainer-foto p{
+width: 300px;
+margin-right: 150px;
+}
+
+.container-foto-1{
+    width: 300px;
+    margin-left: 250px;
+    margin-top: 40px;
+}
+
+.container-foto-0{
+    width: 300px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
 .container-sec{
     display: flex;
     justify-content: space-around;
@@ -88,6 +102,7 @@ h3{
     height: 800px;
     align-items: center;
 }
+
 
 .banner-2{
     background-image:url(fotos/pexels-johannes-plenio-1119974.jpg);
@@ -156,6 +171,7 @@ form input {
 #btn:hover{
     cursor: pointer;
     background-color: black;
+    transition: 2s;
 }
 
 footer{
