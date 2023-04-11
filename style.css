@@ -19,6 +19,10 @@ body{
     padding: 10px;
 }
 
+.barra-menu li a {
+    text-decoration: none;
+}
+
 li:hover{
     background-color:black;
     border-radius: 5px;
