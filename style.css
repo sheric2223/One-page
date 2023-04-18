@@ -136,13 +136,14 @@ p{
     .container{
         display: flex;
         flex-direction:column;
-        height: 1300px;
+        height: 1600px;
         padding-top: 20px;
         margin-bottom: 300px;
     }
     .container-sec{
         display: flex;
         flex-direction: column;
+        width: 200px;
     }
     .apresentaçao{
         display: flex;
@@ -156,11 +157,18 @@ p{
     .container-foto-0{
         margin-left: -70px;
     }
+    .container-foto-0 h5{
+        margin-left: 10px;
+    }
     .container-fotos-seg h5 ,p{
         margin-left: 10px;
     }
     .container-foto-1{
      margin-left: -70px;
+     margin-top: -30px;
+    }
+    .container-foto-1 p{
+        margin-top: 20px;
     }
     .img-banner{
         width: 100px;
