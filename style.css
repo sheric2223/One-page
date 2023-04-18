@@ -139,40 +139,33 @@ p{
         height: 1300px;
         padding-top: 20px;
         margin-bottom: 300px;
-}
+    }
     .container-sec{
         display: flex;
         flex-direction: column;
     }
-
     .apresentaçao{
         display: flex;
         flex-direction: column;
         padding-top: 25px;
         height: 1500px;
     }
-
     .cotainer-foto{
         margin-left: 120px;
     }
-
     .container-foto-0{
         margin-left: -70px;
     }
-     
     .container-fotos-seg h5 ,p{
         margin-left: 10px;
     }
-
     .container-foto-1{
      margin-left: -70px;
     }
-
     .img-banner{
         width: 100px;
         height: 100px;
     }
-
     #btn{
         display: flex;
         justify-content: center;
@@ -184,7 +177,7 @@ p{
         margin-top: 350px;
         padding-right:320px; 
         padding-top: 100px;
-}
+    }
     .banner-alfa p{
         font-size: 25px;
         display: flex;
@@ -199,31 +192,7 @@ p{
     .banner-alfa img{
         width: 250px;
     }
-}
-
-@media (max-width: 900px) {
-    .container{
-        display: flex;
-        flex-direction: column;
-        padding-top: 20px;
-        height: 1300px;
-        padding-bottom: 20px;
+    .footer{
+        font-size: 15px;
     }
-
-    .container-sec{
-        display: flex;
-        flex-direction: column;
-        height: 1030px;
     }
-
-    .container-fotos-seg img{
-        width: 350px;
-        padding-left: 9px;
-    }
-
-    .apresentaçao{
-        display: flex;
-        flex-direction: column;
-        padding-top: 25px;
-    }
-}
