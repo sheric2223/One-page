@@ -144,12 +144,26 @@ p{
         display: flex;
         flex-direction: column;
         width: 200px;
+        margin-top: -330px;
+        height: 1200px;
     }
+
+    .container-fotos-seg img{
+        margin-left: 175px;
+    }
+
+    .container-fotos-seg p {
+        margin-left: 340px;
+        margin-top: -90px;
+        width: 200px;
+    }
+    
     .apresentaçao{
         display: flex;
         flex-direction: column;
         padding-top: 25px;
-        height: 1500px;
+        height: 1420px;
+        margin-left: -20px;
     }
     .cotainer-foto{
         margin-left: 120px;
@@ -180,11 +194,11 @@ p{
         width: 100px;
     }
     .banner-alfa{
-        height: 900px;    
+        height: 600px;    
         display: flex;  
-        margin-top: 350px;
+        margin-top: 200px;
         padding-right:320px; 
-        padding-top: 100px;
+        padding-top: 250px;
     }
     .banner-alfa p{
         font-size: 25px;
