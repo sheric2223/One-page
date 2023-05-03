@@ -43,20 +43,20 @@ margin-right: 150px;
 .container-foto-1{
     width: 300px;
     margin-left: 250px;
-    margin-top: 40px;
+    margin-top: 20px;
+}
+
+.container-foto-1 p{
+ margin-top: 15px;
 }
 
 .container-foto-1 h5{
     margin-left: 0px;
 }
 
-.container-foto-0 h5 p{
-    margin-left: 0;
-}
-
 .container-foto-0{
     width: 300px;
-    margin-left: 70px;
+    margin-left: 50px;
     margin-top: 30px;
 }
 
